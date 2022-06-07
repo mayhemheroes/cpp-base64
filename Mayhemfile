@@ -1,5 +1,5 @@
-project: jbgreenh/cpp-base64
-target: fuzzme
+project: cpp-base64
+target: fuzz-encode-decode
 
 cmds:
-  - cmd: /fuzzme
+  - cmd: /fuzz-encode-decode
